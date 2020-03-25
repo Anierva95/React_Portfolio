@@ -4,6 +4,7 @@ import PrimarySearchAppBar from './components/Navbar';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './components/theme';
 import MediaCard from './components/card'
+import { Grid } from '@material-ui/core'
 
 
 function App() {
@@ -11,9 +12,31 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
       <PrimarySearchAppBar />
-      <MediaCard/>
-      <MediaCard/>
-      <MediaCard/>
+
+      <Grid container direction="row">
+
+      <Grid item xs={2}></Grid>
+
+        <Grid item={true}>
+        <MediaCard/>
+        <MediaCard/>
+        <MediaCard/>
+        </Grid>
+
+        <Grid item={true}>
+        <MediaCard/>
+        <MediaCard/>
+        <MediaCard/>
+        </Grid>
+
+        <Grid item={true}>
+        <MediaCard/>
+        <MediaCard/>
+        <MediaCard/>
+        </Grid>
+
+      <Grid item xs={1}></Grid>
+      </Grid>
     </div>
     </ThemeProvider>
   );
