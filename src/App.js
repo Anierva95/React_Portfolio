@@ -12,15 +12,26 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <div className="App">
+
+    <section style={{"height": "100vh"}}>
+  
     <PrimarySearchAppBar />
     <Typography color="inherit">
     <h1>Hello, my name is Anthony Nierva</h1>
     </Typography>
     <h2>I'm a Full-Stack Web Developer</h2>
-    <Button style={{"marginBottom": "600px"}}>See my work</Button>
-    <h1>My Project</h1>
+    <a href="#projects" style={{"textDecoration" : "inherit"}} >
+    <Button>See my work</Button>
+    </a>
+    </section>
+
+
+    <section id="projects">
+    <h1>My Projects</h1>
     <PrimaryProjectRow/>
     <SecondaryProjectRow/>
+    </section>
+
     </div>
     </ThemeProvider>
   );
