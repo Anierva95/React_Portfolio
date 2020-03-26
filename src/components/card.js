@@ -30,20 +30,24 @@ export default function MediaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {props.First_Name}
+            {props.Project_Name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Project Technologies
+            {props.Project_Technologies}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
+        <a href="https://github.com/Anierva95/DonorSpot" style={{"textDecoration" : "inherit"}}>
         <Button size="small" color="primary">
-          Source Code
+            Source Code
         </Button>
+        </a>
+        <a href="https://mighty-stream-41185.herokuapp.com/" style={{"textDecoration": "inherit"}}>
         <Button size="small" color="primary">
           Deployed Project
         </Button>
+        </a>
       </CardActions>
     </Card>
   );

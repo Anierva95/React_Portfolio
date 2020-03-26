@@ -7,7 +7,10 @@ export default function PrimaryProjectRow() {
 
     let projectcard = projects.map(project => {
         return(
-            <MediaCard First_Name={project.First_Name}/> 
+            <MediaCard
+             Project_Name={project.Project_Name}
+             Project_Technologies={project.Project_Technologies}
+             /> 
         )
     })
 
