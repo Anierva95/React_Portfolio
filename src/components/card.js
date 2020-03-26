@@ -7,13 +7,14 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import picture from "../assets/img/donorspot.jpg";
 
 const useStyles = makeStyles({
   root: {
     width: "100%",
   },
   media: {
-    height: 140,
+    height: 200,
   },
 });
 
@@ -25,7 +26,7 @@ export default function MediaCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={picture}
           title="Contemplative Reptile"
         />
         <CardContent>
