@@ -25,9 +25,10 @@ const useStyles = makeStyles(theme => ({
   title: {
     display: 'none',
     [theme.breakpoints.up('sm')]: {
-      display: 'block',
+      display: 'inline-block',
     },
-    marginLeft: '600px'
+    marginLeft: '600px',
+    textAlign: 'center'
   },
   search: {
     position: 'relative',
