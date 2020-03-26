@@ -27,8 +27,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.up('sm')]: {
       display: 'inline-block',
     },
-    marginLeft: '600px',
-    textAlign: 'center'
+    flex: 50
   },
   search: {
     position: 'relative',
@@ -117,8 +116,9 @@ export default function PrimarySearchAppBar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+      <MenuItem onClick={handleMenuClose}>About Me</MenuItem>
+      <MenuItem onClick={handleMenuClose}>Projects</MenuItem>
+      <MenuItem onClick={handleMenuClose}>Contact Me</MenuItem>
     </Menu>
   );
 
@@ -175,15 +175,11 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography className={classes.title} align='center' variant="h6" noWrap>
+          <Typography className={classes.title} variant="h6">
             Anthony Nierva
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <IconButton aria-label="show 4 new mails" color="inherit">
-            </IconButton>
-            <IconButton aria-label="show 17 new notifications" color="inherit">
-            </IconButton>
             <IconButton
               edge="end"
               aria-label="account of current user"
