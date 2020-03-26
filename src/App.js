@@ -17,7 +17,7 @@ function App() {
 
       <Grid item xs={2}></Grid>
 
-        <Grid item={true}>
+        <Grid item={true} xs={8}>
         <MediaCard/>
         <MediaCard/>
         <MediaCard/>
@@ -35,7 +35,7 @@ function App() {
         <MediaCard/>
         </Grid>
 
-      <Grid item xs={1}></Grid>
+      <Grid item xs={2}></Grid>
       </Grid>
     </div>
     </ThemeProvider>
