@@ -4,21 +4,53 @@ import MediaCard from './card'
 
 
 export default function SecondaryProjectRow() {
-    return(    
+
+  const BoxSeperate = {
+    "marginRight": "30px"
+  }
+
+    return(  
+      <div>
     <Grid container direction="row">
     <Grid item xs={2}></Grid>
       <Grid item={true} xs={3}>
+        <div style={BoxSeperate}>
         <MediaCard/>
-        <MediaCard/>
-        <MediaCard/>
+        </div>
         </Grid>
-        <Grid item xs={2}></Grid>
-        <Grid item={true} xs={3}>
+        <Grid item xs={3}>
+          <div style={BoxSeperate}>
         <MediaCard/>
-        <MediaCard/>
-        <MediaCard/>
+        </div>
         </Grid>
+        <Grid item xs={3}>
+          <div style={BoxSeperate}>
+        <MediaCard/>
+        </div>
+        </Grid>
+      </Grid>
+
+      <Grid container direction="row">
     <Grid item xs={2}></Grid>
-    </Grid>
+      <Grid item={true} xs={3}>
+        <div style={BoxSeperate} >
+        <MediaCard/>
+        </div>
+        </Grid>
+        <Grid item xs={3}>
+          <div style={BoxSeperate}>
+        <MediaCard/>
+        </div>
+        </Grid>
+        <Grid item xs={3}>
+          <div style={BoxSeperate}>
+        <MediaCard/>
+        </div>
+        </Grid>
+      </Grid>
+      
+    <Grid item xs={2}></Grid>
+    </div>  
+   
   )
 }

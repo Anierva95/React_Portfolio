@@ -12,7 +12,7 @@ import picture from "../assets/img/donorspot.jpg";
 const useStyles = makeStyles({
   root: {
     width: "100%",
-    marginBottom: "20px"
+    marginBottom: "20px",
   },
   media: {
     height: 200,
