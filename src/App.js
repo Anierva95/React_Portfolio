@@ -15,28 +15,30 @@ function App() {
     <div className="App">
 
     <section id="top" style={{"height": "100vh"}}>
-  
     <PrimarySearchAppBar/>
-    <Typography color="inherit" style={{"marginTop": "200px"}}>
-    <h1>Hey there! My name is Anthony Nierva</h1>
+    <div id="intro">
+    <Typography style={{"marginTop": "200px"}}>
+    <h1 style={{"color": "white"}}>Hey, My name is Anthony Nierva</h1>
     </Typography>
-    <h2>I'm a Full-Stack Web Developer.</h2>
+    <h2 style={{"color": "white"}}>I'm a Full-Stack Web Developer.</h2>
     <a href="#projects" style={{"textDecoration" : "inherit"}} >
     <Button variant="contained" color="primary" style={{"marginRight": "10px"}}>See my work</Button>
     </a>
     <a href="#contact" style={{"textDecoration" : "inherit"}} >
     <Button variant="contained" color="secondary">Wish to contact me?</Button>
     </a>
+    </div>
     </section>
 
 
     <section id="projects" style={{"marginBottom": "200px"}}>
-    <h1>My Projects</h1>
+    <h1 id="myProjects">My Projects</h1>
     <PrimaryProjectRow/>
     <SecondaryProjectRow/>
     </section>
 
     <section id="contact" backgroundColor="secondary">
+    <h1>I look forward to hearing from you!</h1>
     <FormPropsTextFields/>
     </section>
 
