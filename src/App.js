@@ -8,6 +8,7 @@ import PrimaryProjectRow from './components/PrimaryProjectRow';
 import SecondaryProjectRow from './components/SecondaryProjectRow';
 import { Button, Typography } from '@material-ui/core';
 import FormPropsTextFields from './components/form';
+import { Grid } from '@material-ui/core';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
     <SecondaryProjectRow/>
     </section>
     </ThemeProvider>
+
 
     <section id="contact" backgroundColor="secondary">
     <h1>I look forward to hearing from you!</h1>
