@@ -24,6 +24,12 @@
   color: white;
 }
 
+#top {
+  background-image: url("./assets/img/northernlights.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .App-link {
   color: #61dafb;
 }

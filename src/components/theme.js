@@ -3,8 +3,8 @@ import indigo from '@material-ui/core/colors/indigo';
 
 const theme = createMuiTheme({
   palette: {
-    primary: { main: "#1a237e" },
-    secondary: { main: "#d81b60" },
+    primary: { main: "#173e43" },
+    secondary: { main: "#3fb0ac" },
   },
   status: {
     danger: 'orange',
