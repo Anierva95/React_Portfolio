@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './components/theme';
+import darkTheme from './components/darktheme';
 import PrimarySearchAppBar from './components/Navbar';
 import PrimaryProjectRow from './components/PrimaryProjectRow';
 import SecondaryProjectRow from './components/SecondaryProjectRow';
@@ -30,12 +31,13 @@ function App() {
     </div>
     </section>
 
-
+    <ThemeProvider theme={darkTheme}>
     <section id="projects" style={{"marginBottom": "200px"}}>
     <h1 id="myProjects">My Projects</h1>
     <PrimaryProjectRow/>
     <SecondaryProjectRow/>
     </section>
+    </ThemeProvider>
 
     <section id="contact" backgroundColor="secondary">
     <h1>I look forward to hearing from you!</h1>
