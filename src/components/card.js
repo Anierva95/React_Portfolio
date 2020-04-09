@@ -27,27 +27,19 @@ export default function MediaCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={picture}
+          image="https://res.cloudinary.com/diadpow6d/image/upload/v1586415477/coulzfgvea7f7wgnyvry.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {props.Project_Name}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {props.Project_Technologies}
-          </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <a href="https://github.com/Anierva95/DonorSpot" style={{"textDecoration" : "inherit"}}>
+        <a href={props.Source_Link} style={{"textDecoration" : "inherit"}}>
         <Button size="small" color="primary">
             Source Code
-        </Button>
-        </a>
-        <a href="https://mighty-stream-41185.herokuapp.com/" style={{"textDecoration": "inherit"}}>
-        <Button size="small" color="primary">
-          Deployed Project
         </Button>
         </a>
       </CardActions>

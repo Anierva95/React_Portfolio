@@ -10,6 +10,7 @@ export default function PrimaryProjectRow() {
             <MediaCard
              Project_Name={project.Project_Name}
              Project_Technologies={project.Project_Technologies}
+             Source_Link={project.Source_Link}
              /> 
         )
     })
