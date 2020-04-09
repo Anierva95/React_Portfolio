@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.3bcbf5b1.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.d332cea1.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.d332cea1.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.03dcee9b.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.03dcee9b.js.map",
+    "static/js/2.ee4a2327.chunk.js": "/React_Portfolio/static/js/2.ee4a2327.chunk.js",
+    "static/js/2.ee4a2327.chunk.js.map": "/React_Portfolio/static/js/2.ee4a2327.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.b8bc0b266854c614f40ed1c4b97b3bba.js": "/React_Portfolio/precache-manifest.b8bc0b266854c614f40ed1c4b97b3bba.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/main.3bcbf5b1.chunk.css.map": "/React_Portfolio/static/css/main.3bcbf5b1.chunk.css.map",
+    "static/js/2.ee4a2327.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.ee4a2327.chunk.js.LICENSE.txt",
+    "static/media/donorspot.jpg": "/React_Portfolio/static/media/donorspot.f57298a4.jpg",
+    "static/media/App.css": "/React_Portfolio/static/media/greensmoke.27455fef.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03dcee9b.js",
+    "static/js/2.ee4a2327.chunk.js",
+    "static/css/main.3bcbf5b1.chunk.css",
+    "static/js/main.d332cea1.chunk.js"
+  ]
+}
