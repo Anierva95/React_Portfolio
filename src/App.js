@@ -5,7 +5,6 @@ import theme from './components/theme';
 import darkTheme from './components/darktheme';
 import PrimarySearchAppBar from './components/Navbar';
 import PrimaryProjectRow from './components/PrimaryProjectRow';
-import SecondaryProjectRow from './components/SecondaryProjectRow';
 import { Button, Typography } from '@material-ui/core';
 import FormPropsTextFields from './components/form';
 import { Grid } from '@material-ui/core';
@@ -36,7 +35,6 @@ function App() {
     <section id="projects" style={{"marginBottom": "200px"}}>
     <h1 id="myProjects">My Projects</h1>
     <PrimaryProjectRow/>
-    <SecondaryProjectRow/>
     </section>
     </ThemeProvider>
 
